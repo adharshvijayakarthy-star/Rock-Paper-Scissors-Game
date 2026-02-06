@@ -1,0 +1,57 @@
+.headbar 
+{
+    padding-left: 41%;
+    color: rgb(59, 44, 195);
+    font-size: 30px;
+}  
+
+.dbody
+{
+    padding: 3%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 25% 75%;
+}
+
+.buttonAlign
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+
+.clicker
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    font-size: 17px;
+    border-radius: 10px;
+    transition: transform 0.1s ease;
+    border: none;
+    display: block;
+}
+
+.clicker:hover
+{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 20px rgb(51, 86, 210);
+    cursor: pointer;
+}
+
+
+.rockImage
+{
+    margin-top: 60px;
+    height: 170px;
+    transition: transform 0.1s ease;
+}
+
+.rockImage:hover
+{
+    transform: scale(1.1);
+}
